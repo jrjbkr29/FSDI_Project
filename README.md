@@ -1,9 +1,9 @@
 # FSDI_Project: 
 Task manager site to organize incoming work as requests, current status, and completed/archived tasks in a development and production laboratory environment. Also, a data management section to centralize the data that is created when performing these tasks.
 
-##Who is the user?
+## Who is the user?
 Engineers, managers, and technicians of various ages/technical backgrounds
-##Features:
+## Features:
 -A main page that allows anyone to see current jobs, without logging in
 -User creation/admin panel to add/modify jobs
 -Simple request form to add jobs to queue for non registered users. Maybe add a FAQ section about the resources available and answers to most common questions about the lab(eg. Fixture drawings, equipment capabilities, requirements, etc)
@@ -14,17 +14,17 @@ Engineers, managers, and technicians of various ages/technical backgrounds
 -Create a QR code generator page to link to a dataset
 -API to send out job data to different programs
 
-##User Models
-###Engineers(requesters): 
+## User Models
+### Engineers(requesters): 
 -Create new requests to get product tested through the lab.
 -Need a simple FAQ to learn the process of getting their product through the lab. This will help engineers from different departments avoid the repetitive meetings describing the process.
 -FAQ is a simple resource for requirements, schedule/availability for engineers that don't know where to start
 -Need a way to visualize the data(eg. Test summary/reports with pass or fail criteria to avoid misinterpretation of data) and a resource to collect all data for final summary
-###Managers(manage schedule/technicians/priorities):
+### Managers(manage schedule/technicians/priorities):
 -Need a way to track incoming jobs, view current schedule, and view hold/failed product so they can focus on finding a resolution 
 -Need to be able to go back and reference old jobs to address any issues that were missed or performed incorrectly
 -Need admin privileges to manage assigned users and rearrange tasks based on priority from upper management/schedule
-###Technicians(users):
+### Technicians(users):
 -Will use to find current work assigned, communicate issues, and comment current status during shift handover
 -Be able to complete, claim, or place jobs on hold
 -Need a simplified summary of requirements(functional, thermal, vacuum, shock, humidity, and vibration requirements) to test against, know what specialized equipment/hazards are present, and if engineering support is needed during testing. 
